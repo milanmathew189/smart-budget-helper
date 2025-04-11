@@ -1,9 +1,9 @@
-📊 Smart Budget Helper
+# 📊 Smart Budget Helper
 
 A simple  personal finance tracker that helps you record your Income and Expenses, view summaries by Category, and generate insightful Charts📈
 
 
-🚀 Features
+## 🚀 Features
 
 - Add transactions (income/expense) with category and date
 - View all transactions in a tabulated format
@@ -13,7 +13,7 @@ A simple  personal finance tracker that helps you record your Income and Expense
 - Visualize category-wise expenses using Bar chart and Pie chart
 
 
- 🛠 Technologies Used
+## 🛠 Technologies Used
 
 - Python 🐍
 - CSV for data storage
@@ -36,7 +36,7 @@ budget-tracker/
 
 
 
-💻 How to Run
+## 💻 How to Run
 
 1. Make sure you have Python installed
 2. Install required modules:
