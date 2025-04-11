@@ -21,10 +21,9 @@ A simple  personal finance tracker that helps you record your Income and Expense
 - matplotlib for charts
 
 
-📁 File Structure
+## 📁 File Structure
 
- ## 📁 File Structure
-
+```
 budget-tracker/
 │
 ├── data/
@@ -32,6 +31,7 @@ budget-tracker/
 │
 ├── main.py                # Main script to run the project
 └── README.md              # Project description
+```
 
 
 
