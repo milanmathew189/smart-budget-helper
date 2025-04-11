@@ -24,7 +24,7 @@ A simple  personal finance tracker that helps you record your Income and Expense
 ## 📁 File Structure
 
 ```
-budget-tracker/
+smart-budget-helper/
 │
 ├── data/
 │   └── expense.csv        # Stores all transaction data
