@@ -2,7 +2,10 @@ import csv
 from datetime import datetime
 import os
 from tabulate import tabulate
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+
+DATA_DIR = "data"
+FILE_PATH = os.path.join(DATA_DIR, "expense.csv")
 
 def add_transaction():
     t_type=input("enter transacton type(expense or income)").lower().strip()
@@ -11,9 +14,10 @@ def add_transaction():
     date=input("enter date(YYYY-MM-DD) or leave blank for today:").strip()
     if not date:
         date=datetime.today().strftime('%Y-%m-%d')
-    file_exist=os.path.isfile("data/expense.csv")
+    os.makedirs(DATA_DIR, exist_ok=True)
+    file_exist=os.path.isfile(FILE_PATH)
 
-    with open("data/expense.csv",'a',newline='') as f:
+    with open(FILE_PATH,'a',newline='') as f:
          writer=csv.writer(f)
          if not file_exist:
              writer.writerow(['type', 'amount', 'category', 'date'])
