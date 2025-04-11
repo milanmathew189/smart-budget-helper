@@ -23,10 +23,10 @@ A simple  personal finance tracker that helps you record your Income and Expense
 
 📁 File Structure
 
-Budget-Tracker
-1.data-expense.csv # Stores all transaction data
-2.src- main.py # Main script to run the project 
-3.README.md  # Project description
+ Budget-Tracker
+ 1.data-expense.csv # Stores all transaction data
+ 2.src- main.py # Main script to run the project 
+ 3.README.md  # Project description
 
 
 
