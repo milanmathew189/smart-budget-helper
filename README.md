@@ -43,3 +43,7 @@ smart-budget-helper/
    * matplotlib
    * tabulate
 3. Run the Program
+
+## ‼️IMPORTENT
+if you're running the project using IDLE or directly from a terminal, you might notice that the data folder is created in a different location than expected.
+This happens because, in VS Code, the script is typically run from the project root (where data/ already exists). But in IDLE or other environments, the script may be run from the location of main.py, causing Python to create a new data folder next to main.py instead.
